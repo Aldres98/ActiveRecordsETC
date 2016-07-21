@@ -28,5 +28,6 @@ post '/visit' do
 	@datetime = params[:datetime]
 	@barber = params[:barber]
 	@color = params[:color]
+	erb :visit
 	    
 end	
