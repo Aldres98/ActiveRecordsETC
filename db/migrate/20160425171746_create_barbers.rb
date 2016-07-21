@@ -1,4 +1,4 @@
-class CreateBarbers < ActiveRecord::Migration
+3class CreateBarbers < ActiveRecord::Migration
   def change
 	create_table :barbers do |t|
   		t.text :name

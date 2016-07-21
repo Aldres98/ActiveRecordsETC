@@ -1,3 +1,9 @@
 
 Gemfile.lock
 barbershop.db
+public/jquery.datetimepicker.css
+public/jquery.datetimepicker.min.js
+public/jquery.simplecolorpicker.css
+public/jquery.datetimepicker.js
+public/jquery.simplecolorpicker.js
+db/migrate/20160425171746_create_barbers.rb

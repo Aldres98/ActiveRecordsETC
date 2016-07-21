@@ -23,11 +23,12 @@ get '/visit' do
 end
 
 post '/visit' do
+	@booking = Client.new params[:client]
 	@username = params[:username]
 	@phone = params[:phone]
 	@datetime = params[:datetime]
 	@barber = params[:barber]
 	@color = params[:color]
-	erb :visit
+	erb "<h2> Спасибо, вы записаны</h2>"
 	    
 end	
