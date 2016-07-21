@@ -1,6 +1,6 @@
 <h2> Список парикмахеров </h2>
 <% @barbers.each do |barber| %>
 	<p>
-		<%= barber.name%>
+		<%= barber.name%>, <%= barber.created_at%>
 	</p>
 <% end %>
